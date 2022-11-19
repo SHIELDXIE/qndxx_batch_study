@@ -71,7 +71,7 @@ def saveHistory(token,cid):
     return j
 
 if __name__ == "__main__":
-    for mid in open("__此处填入mid.txt路径__"): #例_"D:\mid.txt"
+    for mid in open("___此处填入mid.txt路径___"): #例_"D:\mid.txt"
         #跳过空行
         if mid.isspace():
           continue
